@@ -1,0 +1,63 @@
+.posts-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 296px;
+  height: 312px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  margin: 10px;
+}
+
+.card .img {
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+  background-color: inherit; /* inherit parent background color */
+}
+
+.card.even {
+  background-color: #109be9;
+}
+
+.card.odd {
+  background-color: #909090;
+}
+
+.card .card-details {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.card .card-id {
+  font-size: 20px;
+  margin-left: 15px;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.card .card-title {
+  font-size: 18px;
+  margin-left: 15px;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover .card-id,
+.card:hover .card-title {
+  color: #f00;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}

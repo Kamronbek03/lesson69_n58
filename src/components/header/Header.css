@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Mulish;
+  src: url(../assets/fonts/Mulish-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+.Header {
+  padding: 0 104px;
+  background-color: #109be9;
+}
+.container {
+  max-width: 1232px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 27px 0;
+}
+a {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff !important;
+  transition: 0.4s ease-in-out;
+}
+a:hover {
+  color: #f00 !important;
+}

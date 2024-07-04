@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Mulish;
+  src: url(./assets/fonts/Mulish-Regular.ttf);
+}
+.App {
+  font-family: Arial, sans-serif, Mulish;
+}
+
+.search-bar input {
+  width: 100%;
+}

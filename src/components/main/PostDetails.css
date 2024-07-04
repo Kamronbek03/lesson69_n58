@@ -1,0 +1,43 @@
+.post-details {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-details .post-img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.post-details.even {
+  background-color: #109be9;
+}
+
+.post-details.odd {
+  background-color: #909090;
+}
+
+.post-details h2,
+.post-details h3,
+.post-details p {
+  color: white;
+}
+
+.post-details .post-id {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.post-details .post-title {
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.post-details .post-body {
+  margin-left: 15px;
+}
